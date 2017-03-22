@@ -1,10 +1,10 @@
 <?php
   include_once 'AbClass.php';
   class xuv extends AbClass{
-    private $color = "Black";
-    private $mileage = "100 kmpl";
-    private $brand = "XUV";
-    private $durability = "2 years";
+    private $color;
+    private $mileage;
+    private $brand;
+    private $durability;
 
     public function getColor($color){
       return $color;
